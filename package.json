@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/Danielandro/junior-jobs-app/issues"
   },
-  "homepage": "https://github.com/Danielandro/junior-jobs-app#readme"
+  "homepage": "https://github.com/Danielandro/junior-jobs-app#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "cron": "^1.7.2"
+  }
 }
