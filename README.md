@@ -1,6 +1,6 @@
 <h1 align="center">Junior Dev Jobs :computer: :briefcase: :pound:</h1>
 <p>
-  <img src="https://img.shields.io/npm/v/readme-md-generator.svg?orange=blue" />
+  <img src="https://img.shields.io/npm/v/junior-jobs-app.svg?orange=blue" />
 
   <img src="https://img.shields.io/badge/java8-blue.svg" />
 
