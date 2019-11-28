@@ -1,8 +1,8 @@
 <h1 align="center">Junior Dev Jobs :computer: :briefcase: :pound:</h1>
 <p>
-  <img src="https://img.shields.io/npm/v/junior-jobs-app.svg?orange=blue" />
+  <img src="https://img.shields.io/badge/npm-v6.9.0-blue" />
 
-  <img src="https://img.shields.io/badge/java8-blue.svg" />
+  <img src="https://img.shields.io/badge/node.js-v10.17.0-green.svg" />
 
   <a href="https://github.com/Danielandro/java-calculator/graphs/commit-activity" target="_blank">
   </a>
