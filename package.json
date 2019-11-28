@@ -1,0 +1,20 @@
+{
+  "name": "junior-jobs-app",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\">Junior Dev Jobs :computer: :briefcase: :pound:</h1> <p>   <img src=\"https://img.shields.io/npm/v/junior-jobs-app.svg?orange=blue\" />",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Danielandro/junior-jobs-app.git"
+  },
+  "keywords": [],
+  "author": "Daniel Ajilore",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Danielandro/junior-jobs-app/issues"
+  },
+  "homepage": "https://github.com/Danielandro/junior-jobs-app#readme"
+}
