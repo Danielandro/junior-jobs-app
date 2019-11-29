@@ -19,6 +19,7 @@
   "homepage": "https://github.com/Danielandro/junior-jobs-app#readme",
   "devDependencies": {},
   "dependencies": {
-    "cron": "^1.7.2"
+    "cron": "^1.7.2",
+    "node-fetch": "^2.6.0"
   }
 }
