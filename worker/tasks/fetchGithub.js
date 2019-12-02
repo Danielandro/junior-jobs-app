@@ -28,5 +28,4 @@ async function fetchGithub() {
   console.log(`Total number of jobs found: ${allJobs.length}`);
 }
 
-fetchGithub();
 module.exports = fetchGithub;
