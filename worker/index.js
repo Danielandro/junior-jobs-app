@@ -2,7 +2,7 @@ const CronJob = require('cron').CronJob;
 const GithubJobs = require('./tasks/fetchGithub');
 
 new CronJob('*/10 * * * * *', GithubJobs(),
-  null, true, 'AEurope/London');
+  null, true, 'Europe/London');
 
 // Every Hour Cron Schedule Expression
 // 0 */1 * * *
