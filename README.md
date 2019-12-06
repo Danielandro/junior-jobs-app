@@ -16,7 +16,7 @@
 
 ## Aim
 
-Build an application that grabs junior developer jobs from open source APIs and puts them all in one place. 
+Build an application that grabs junior developer jobs from open source APIs and puts them all in one place. The first API  used is Github jobs as it's has open and easy to use.
 
 
 ## Tech Stack
