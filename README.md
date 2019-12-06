@@ -38,7 +38,7 @@ Build an application that grabs junior developer jobs from open source APIs and 
 
 Clone the project
 
-`npm  i` to install the dependencies
+`npm  install` to install the dependencies
 
 
 ## Usage
@@ -61,7 +61,7 @@ To use the app, there are **three steps**:
 
 - Open another instance of the terminal and enter `cd client`
 
-- Enter `npm i` to install the dependencies.
+- Enter `npm install` to install the dependencies.
 
 - Enter `npm run start` to start the app on port 3000
 
