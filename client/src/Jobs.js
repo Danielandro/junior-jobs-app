@@ -8,9 +8,11 @@ export default function Jobs({ jobs }) {
       <Typography variant="h1">
         Junior Developer Jobs
       </Typography>
-      {
-        jobs.map(job => <Job job={job} />)
-      }
+      {jobs.map(job => (
+        <Job
+          job={job}
+        />
+      ))}
     </div>
   )
 }
