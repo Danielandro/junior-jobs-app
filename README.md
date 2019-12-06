@@ -16,8 +16,11 @@
 
 ## Aim
 
-Build an application that grabs junior developer jobs from open source APIs and puts them all in one place. The first API  used is Github jobs as it's has open and easy to use.
+Build an application that grabs junior developer jobs from open source APIs and puts them all in one place. The first API used is Github jobs as it's has open and easy to use.
 
+The main aim was to explore a few new concepts (in-memory data structure, cron workers).
+
+![cron worker started in the terminal](/screenshots/app-screenshot-1.png)
 
 ## Tech Stack
 
@@ -29,7 +32,7 @@ Build an application that grabs junior developer jobs from open source APIs and 
 
 ## Prerequisites
 
-- Redis 
+- Redis
 
 1. Visit the [Redis homepage](https://redis.io/) and install the latest version
 2. Start redis-server in console using the command `redis-server /usr/local/etc/redis.conf`
@@ -38,8 +41,7 @@ Build an application that grabs junior developer jobs from open source APIs and 
 
 Clone the project
 
-`npm  install` to install the dependencies
-
+`npm install` to install the dependencies
 
 ## Usage
 
@@ -51,11 +53,15 @@ To use the app, there are **three steps**:
 
 - This will fetch jobs from the Github jobs API every minute. To terminate press `ctrl + c`
 
-**2.** Start the server 
+![cron worker has been started in the terminal](/screenshots/start-fetching-github-jobs.png)
 
-- Open another terminal and enter `node ./api/index`. 
+**2.** Start the server
+
+- Open another terminal and enter `node ./api/index`.
 
 - This will start the server on port 3001. To terminate press `ctrl + c`
+
+![API has been started in the terminal](/screenshots/start-api-server.png)
 
 **3.** Start the application
 
@@ -67,6 +73,12 @@ To use the app, there are **three steps**:
 
 - Go to your browser and navigate to `http://localhost:3000`
 
+![Application has been started in the terminal](/screenshots/start-client.png)
+
+## Issues
+
+- Some listings are returned multiple times. Need to be filtered out
+- Front-end needs some love
 
 ## Author
 
