@@ -22,23 +22,46 @@
 - Redis (Cache)
 - Cron Worker
 
+## Prerequisites
+
+- Redis 
+
+1. Visit the [Redis homepage](https://redis.io/) and install the latest version
+2. Start redis-server in console using the command `redis-server`
+
 ## Install
 
-```sh
+Clone the project
 
-```
+`npm  i` to install the dependencies
+
 
 ## Usage
 
-```sh
+To use the app, there are **three steps**:
 
-```
+**1.** Fetch the jobs & store in redis:
 
-## Run tests
+- From the project folder, type in the command line `node ./worker/index`
 
-```sh
+- This will fetch jobs from the Github jobs API every minute. To terminate press `ctrl + c`
 
-```
+**2.** Start the server 
+
+- Open another terminal and enter `node ./api/index`. 
+
+- This will start the server on port 3001. To terminate press `ctrl + c`
+
+**3.** Start the application
+
+- Open another instance of the terminal and enter `cd client`
+
+- Enter `npm i` to install the dependencies.
+
+- Enter `npm run start` to start the app on port 3000
+
+- Go to your browser and navigate to `http://localhost:3000`
+
 
 ## Author
 
