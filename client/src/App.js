@@ -4,7 +4,7 @@ import Jobs from './Jobs';
 
 function App() {
   const jobApiUrl = 'http://localhost:3001/jobs';
-  const [jobList, updateJobs] = useState([]);
+  const [jobs, updateJobs] = useState([]);
   const fetchJobs = async () => {
     const res = await fetch(jobApiUrl);
     const json = await res.json();
@@ -18,7 +18,7 @@ function App() {
 
   return (
     <div className="App">
-      <Jobs jobs={jobList} />
+      <Jobs jobs={jobs} />
     </div>
   );
 }
