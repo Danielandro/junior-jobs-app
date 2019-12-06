@@ -14,6 +14,11 @@
 
 > Junior Developer Job Aggregator App
 
+## Aim
+
+Build an application that grabs junior developer jobs from open source APIs and puts them all in one place. 
+
+
 ## Tech Stack
 
 - React (Front-End)
@@ -27,7 +32,7 @@
 - Redis 
 
 1. Visit the [Redis homepage](https://redis.io/) and install the latest version
-2. Start redis-server in console using the command `redis-server`
+2. Start redis-server in console using the command `redis-server /usr/local/etc/redis.conf`
 
 ## Install
 
