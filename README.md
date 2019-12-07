@@ -75,6 +75,10 @@ To use the app, there are **three steps**:
 
 ![Application has been started in the terminal](/screenshots/start-client.png)
 
+## Approach
+
+![Diagram of application structure](/screenshots/app-diagram.png)
+
 ## Issues
 
 - Some listings are returned multiple times. Need to be filtered out
