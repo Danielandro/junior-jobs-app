@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
-import Jobs from './Jobs';
+import Jobs from './components/jobs/Jobs';
 
 function App() {
   const jobApiUrl = 'http://localhost:3001/jobs';
