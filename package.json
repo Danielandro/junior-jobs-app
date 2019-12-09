@@ -4,7 +4,8 @@
   "description": "<h1 align=\"center\">Junior Dev Jobs :computer: :briefcase: :pound:</h1> <p>   <img src=\"https://img.shields.io/npm/v/junior-jobs-app.svg?orange=blue\" />",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --ext .js --ext .jsx . --fix"
   },
   "repository": {
     "type": "git",
@@ -17,7 +18,13 @@
     "url": "https://github.com/Danielandro/junior-jobs-app/issues"
   },
   "homepage": "https://github.com/Danielandro/junior-jobs-app#readme",
-  "devDependencies": {},
+  "devDependencies": {
+    "eslint": "^6.7.2",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-prettier": "^3.1.1",
+    "prettier": "^1.19.1"
+  },
   "dependencies": {
     "cron": "^1.7.2",
     "express": "^4.17.1",
