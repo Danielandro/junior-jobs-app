@@ -99,6 +99,8 @@ To use the app, there are **three steps**:
 
 - Currently, all the results are displayed at the same time. As the number of results increase, so will the time it takes to load the page. This could be solved by introducing pagination. Though it can be achieved at the application level, I feel this doesn't provide a good separation of concerns and would prefer to return the results in batches from storage.
 
+- The installation and setup of Redis was a bit troublesome as I work on a linux device. This meant I needed to test the app was able to be installed and run on other systems (Mac & Windows). Containerizing the app would solve this problem, as everything the app needed could be delivered with it.
+
 - If you have any questions or comments about this project I would love to hear any and all feedback! I'm curious to see how others would approach this problem and would enjoy listening to other developers thoughts regarding my own approach.
 
 ## Author
