@@ -79,6 +79,18 @@ To use the app, there are **three steps**:
 
 ![Diagram of application structure](/screenshots/app-diagram.png)
 
+1. I started by creating a diagram (as above) of how the different elements needed to interact with eachother and how the data would flow.
+
+2. I bootstrapped the client using create-react-app, structuring it as a single page application. Only one route is required and any future features such as filtering by certain attributes can be achieved by updating the state and re-rendering the page. I defined some mock job data based on the JSON returned by the Github jobs API, and set this as the initial state with the top level `App` component.
+
+3. Passing this data down, utilising the one-way data flow of React, I defined the child components (Jobs & Job) to render each result. I also utilised some components of the Material-UI library to define some basic styling using CSS-in-JS. I could have gone with plain CSS or a pre-processor like SASS, but I wanted to experiment.
+
+4. Next, I created the cron worker and the module that calls the Github jobs API. I used a modular and functional structure as I feel it opens the opportunity to for extending the project using other APIs and makes it easily readable. Once thing I could change, would be to separate out the saving of the data to redis into a separate module. This would provide better adherance to single responsibility for each module, and encourage reusability.
+
+5. I then defined a simple API using express, with a single endpoint `/jobs` that returned the job data from the database. In order to allow the endpoint to be accessed by the client from a different domain, had to define a `access-control-allow-origin` header on the server response.
+
+6. The final step was to call the API from the client and set the state on the App component. I used the `useState` & `useEffect` hooks to call the API and set the state when App mounts (i.e. on page load). I chose to utilise ES6 and React hooks, as the are both modern implementations that are currently well supported.
+
 ## Issues
 
 - Some listings are returned multiple times. Need to be filtered out
