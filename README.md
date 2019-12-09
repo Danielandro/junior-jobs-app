@@ -91,10 +91,15 @@ To use the app, there are **three steps**:
 
 6. The final step was to call the API from the client and set the state on the App component. I used the `useState` & `useEffect` hooks to call the API and set the state when App mounts (i.e. on page load). I chose to utilise ES6 and React hooks, as the are both modern implementations that are currently well supported.
 
-## Issues
+## Final thoughts
 
-- Some listings are returned multiple times. Need to be filtered out
-- Front-end needs some love
+- Some listings are returned multiple times which means the idea of using the job id as a unique key for each child doesn't work. This can be resolved by filtering the results to remove duplicate lisiting before saving to database.
+
+- This project was an exploration, and as such this was the main focus. I chose not to spike the project for this purpose, as I didn't have a clear plan of how it would come together.
+
+- Currently, all the results are displayed at the same time. As the number of results increase, so will the time it takes to load the page. This could be solved by introducing pagination. Though it can be achieved at the application level, I feel this doesn't provide a good separation of concerns and would prefer to return the results in batches from storage.
+
+- If you have any questions or comments about this project I would love to hear any and all feedback! I'm curious to see how others would approach this problem and would enjoy listening to other developers thoughts regarding my own approach.
 
 ## Author
 
