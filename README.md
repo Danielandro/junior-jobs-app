@@ -34,14 +34,15 @@ The main aim was to explore a few new concepts (in-memory data structure, cron w
 
 - Redis
 
-1. Visit the [Redis homepage](https://redis.io/) and install the latest version
-2. Start redis-server in console using the command `redis-server /usr/local/etc/redis.conf`
-
 ## Install
 
 Clone the project
 
 `npm install` to install the dependencies
+
+Visit the [Redis homepage](https://redis.io/) and install the latest version
+
+Start redis-server in console using the command `redis-server /usr/local/etc/redis.conf`
 
 ## Usage
 
