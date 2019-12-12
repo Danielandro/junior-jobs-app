@@ -7,8 +7,8 @@
   <a href="https://github.com/Danielandro/junior-jobs-app/graphs/commit-activity" target="_blank">
   </a>
 
-  <a href="https://github.com/Danielandro/java-calculator/blob/master/LICENSE" target="_blank">
-    <img alt="License: MIT" src="https://img.shields.io/github/license/Danielandro/java-calculator" />
+  <a href="https://github.com/Danielandro/junior-jobs-app/blob/master/LICENSE" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/github/license/Danielandro/junior-jobs-app" />
   </a>
 </p>
 
