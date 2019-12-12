@@ -4,7 +4,7 @@
 
   <img src="https://img.shields.io/badge/node.js-v10.17.0-green.svg" />
 
-  <a href="https://github.com/Danielandro/java-calculator/graphs/commit-activity" target="_blank">
+  <a href="https://github.com/Danielandro/junior-jobs-app/graphs/commit-activity" target="_blank">
   </a>
 
   <a href="https://github.com/Danielandro/java-calculator/blob/master/LICENSE" target="_blank">
